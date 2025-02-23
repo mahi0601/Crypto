@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.container {
+  @apply max-w-6xl mx-auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+button {
+  @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
+
+.card {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}
+
+.table {
+  @apply w-full border-collapse border border-gray-300;
+}
+
+.table th, .table td {
+  @apply border border-gray-300 p-2;
+}
+
+.navbar {
+  @apply bg-gray-800 text-white p-4;
+}
+
+.live-trades {
+  @apply mt-4 p-4 border rounded-lg shadow-lg bg-white;
+}
+
+
+.table-container {
+  @apply bg-white p-6 rounded-lg shadow-lg mt-6;
+}
+
+.table-title {
+  @apply text-2xl font-bold text-gray-800 text-center mb-6;
+}
+
+.table-wrapper {
+  @apply overflow-x-auto rounded-lg border border-gray-300 shadow-lg;
+}
+
+.custom-table {
+  @apply w-full text-sm text-left border-collapse border border-gray-400;
+}
+
+.custom-table thead {
+  @apply bg-gray-900 text-white text-md;
+}
+
+.custom-table th {
+  @apply px-6 py-3 border-r border-gray-500;
+}
+
+.custom-table td {
+  @apply px-6 py-4 border-r border-gray-300;
+}
+
+.custom-table tbody tr {
+  @apply border-b border-gray-400 hover:bg-gray-100 transition;
+}
+
+.table {
+  @apply w-full border-collapse border border-gray-300;
+}
+
+.table th, .table td {
+  @apply border border-gray-300 p-2;
+}
+
+.navbar {
+  @apply bg-gray-800 text-white p-4;
+}
+
+.live-trades {
+  @apply mt-4 p-4 border rounded-lg shadow-lg bg-white;
+}
+
+
+.table-container {
+  @apply bg-white p-6 rounded-lg shadow-lg mt-6;
+}
+
+.table-title {
+  @apply text-2xl font-bold text-gray-800 text-center mb-6;
+}
+
+.table-wrapper {
+  @apply overflow-x-auto rounded-lg border border-gray-300 shadow-lg;
+}
+
+.custom-table {
+  @apply w-full text-sm text-left border-collapse border border-gray-400;
+}
+
+.custom-table thead {
+  @apply bg-gray-900 text-white text-md;
+}
+
+.custom-table th {
+  @apply px-6 py-3 border-r border-gray-500;
+}
+
+.custom-table td {
+  @apply px-6 py-4 border-r border-gray-300;
+}
+
+.custom-table tbody tr {
+  @apply border-b border-gray-400 hover:bg-gray-100 transition;
+}

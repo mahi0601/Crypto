@@ -1,0 +1,68 @@
+/* Table Styles */
+.table-container {
+    padding: 1.5rem;
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table thead {
+    background-color: #4338ca;
+    color: white;
+    text-transform: uppercase;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e5e7eb;
+}
+
+.custom-table td.text-green-600 {
+    color: #10b981;
+    font-weight: bold;
+}
+
+.custom-table td.text-blue-600 {
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+.custom-table td.text-red-600 {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.custom-table td.text-purple-700 {
+    color: #7c3aed;
+    font-weight: bold;
+}
